@@ -1,0 +1,43 @@
+reset;
+print '----------model_1----------' > results.txt;
+print '----------model_1----------';
+model model_1.mod;
+data model_1.dat;
+option solver cplex;
+solve;
+display flows, activated;
+display solve_message >> results.txt;
+display flows, activated >> results.txt;
+
+reset;
+print '----------model_2----------' >> results.txt;
+print '----------model_2----------';
+model model_2.mod;
+data model_2.dat;
+option solver cplex;
+solve;
+display flows, activated;
+display solve_message >> results.txt;
+display flows, activated >> results.txt;
+
+reset;
+print '----------model_1_modified_scenario----------' >> results.txt;
+print '----------model_1_modified_scenario----------';
+model model_1.mod;
+data model_1_modified_scenario.dat;
+option solver cplex;
+solve;
+display flows, activated;
+display solve_message >> results.txt;
+display flows, activated >> results.txt;
+
+reset;
+print '----------model_2_modified_scenario----------' >> results.txt;
+print '----------model_2_modified_scenario----------';
+model model_2.mod;
+data model_2_modified_scenario.dat;
+option solver cplex;
+solve;
+display flows, activated;
+display solve_message >> results.txt;
+display flows, activated >> results.txt;

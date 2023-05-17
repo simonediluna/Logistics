@@ -1,0 +1,44 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica-Oblique;\f1\fswiss\fcharset0 Helvetica;\f2\fswiss\fcharset0 Helvetica-Bold;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww21680\viewh13480\viewkind0
+\pard\tx565\tx1133\tx1700\tx2266\tx2832\tx3401\tx3967\tx4535\tx5102\tx5669\tx6235\tx6802\qj\partightenfactor0
+
+\f0\i\fs28 \cf0 PrivateOnDemand S.p.a.
+\f1\i0  vuole progettare una rete di comunicazione per inviare informazioni di carattere privato "on demand". Ha a disposizione l'insieme di nodi  \{A, B, C, D, E, F, G\}, che possono essere interconnessi tramite il seguente insieme di archi orientati:  \{(A,B), (A,C), (C,E), (B,D), (C,D), (D,E), (D,F), (E,G), (E,F), (F,G)\}.\
+\pard\pardeftab1134\ri-5720\qj\partightenfactor0
+\cf0 \
+\pard\pardeftab1134\qj\partightenfactor0
+\cf0 I costi fissi di attivazione degli archi della rete sono pari a Euro \{10.000 , 15.000 , 30.000, 18.000, 20.000 , 12.000, 16.000, 16.000 , 12000, 10.000\}. I costi variabili di instradamento dei dati lungo gli archi della rete sono stimati pari a   \{300, 150, 500, 300, 300, 500, 350, 200, 250, 300\} Euro/Mbit/s. Una volta attivati, gli archi della rete risultano equipaggiati con le seguenti capacit\'e0: \{10, 20, 10, 10, 20, 7, 8, 20, 17, 15\} Mbit/s. \
+\
+Il database contenente le informazioni \'e8 localizzato nel nodo A, mentre il cliente che si vuole servire \'e8 localizzato nel nodo G. La richiesta di connessione da A a G \'e8 pari a 15 Mbit/s.																	\
+\pard\tx565\tx1133\tx1700\tx2266\tx2832\tx3401\tx3967\tx4535\tx5102\tx5669\tx6235\tx6802\qj\partightenfactor0
+
+\f0\i \cf0 PrivateOnDemand
+\f1\i0  
+\f0\i S.p.a. 
+\f1\i0 vuole valutare qual \'e8 il minimo costo necessario per connettere il cliente in G al database in A. Ovvero, vuole progettare la rete di comunicazione decidendo quali archi attivare, e come instradare i dati lungo la rete, in modo da soddisfare la domanda di connettivit\'e0 e rispettando i vincoli di capacit\'e0, in modo tale da minimizzare il costo totale sostenuto (costi fissi + costi variabili).\
+\pard\tx565\tx1133\tx1700\tx2266\tx2832\tx3401\tx3967\tx4535\tx5102\tx5669\tx6235\tx6802\partightenfactor0
+\cf0 							\
+\pard\tx565\tx1133\tx1700\tx2266\tx2832\tx3401\tx3967\tx4535\tx5102\tx5669\tx6235\tx6802\partightenfactor0
+
+\f2\b \cf0 1.
+\f1\b0  Si formuli il problema di 
+\f0\i PrivateOnDemand
+\f1\i0  
+\f0\i S.p.a.
+\f1\i0  mediante un modello PLI.												\
+\pard\tx565\tx1133\tx1700\tx2266\tx2832\tx3401\tx3967\tx4535\tx5102\tx5669\tx6235\tx6802\qj\partightenfactor0
+
+\f2\b \cf0 2.
+\f1\b0  Si implementi il modello proposto mediante il linguaggio di modellazione AMPL, e lo si implementi mediante il solver di ottimizzazione CPLEX.\
+\
+
+\f2\b 3. 
+\f1\b0 Si modifichi il modello proposto al punto 1 imponendo che tutti i dati (ovvero i 15 Mbit/s) siano inviati lungo un unico cammino della rete da A a G.	\
+
+\f2\b 4. 
+\f1\b0 Si implementi e risolva il modello proposto al punto 3, mediante AMPL e CPLEX, e si confronti la soluzione ottenuta con quella determinata al punto 2.										\
+}
