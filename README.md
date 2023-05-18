@@ -1,5 +1,7 @@
 # Tool utilizzati
-<img src="https://mlyau5vyqpxz.i.optimole.com/w:430/h:106/q:mauto/f:avif/https://ampl.com/wp-content/uploads/2020/12/logo-inline-web-v4.png" width="200">
+<a href="https://ampl.com/">
+  <img src="https://mlyau5vyqpxz.i.optimole.com/w:430/h:106/q:mauto/f:avif/https://ampl.com/wp-content/uploads/2020/12/logo-inline-web-v4.png" width="200">
+</a>
 
 # Traccia del problema
 
